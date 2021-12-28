@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="assets/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<title>Notorious</title>
+</head>
+<body>
+<div class="animate__animated animate__backIn" id="particles-js">
+<script src="assets/particles.js"></script>
+	<div class="parent">
+		<h1 class="animate__animated animate__fadeInRight" id="header"></h1>
+		<div class="animate__animated animate__fadeIn animate__delay-2s content">
+			<a href="https://discord.gg/2RDhKWukGk" target="_blank"><p>discord</p></a>
+			<font color="white"> | </font>
+			<a href="rules.html" target="_self"><p>rules</p></a>
+			<font color="white"> | </font>
+			<a href="info.html" target="_self"><p>info</p></a>
+		</div>
+	</div>
+</div>
+<div id="particles-js"></div>
+<script type="text/javascript" src="assets/particles.js"></script>
+<script type="text/javascript" src="assets/app.js"></script>
+</body>
+<script>
+	particlesJS.load('particles-js', 'particle-cfg.json', function() {});
+</script>
+<div id="particles-js"></div>
+
+<script src="particles.js"></script>
+<script>
+var header_text = new Typed('#header', {
+	strings: ['Notorious'],
+	startDelay: 200 * 5,
+	typeSpeed: 65,
+  	smartBackspace: true,
+	showCursor: false,
+	loop: false,
+});
+</script>
+</html>
