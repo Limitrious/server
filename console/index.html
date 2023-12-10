@@ -1,4 +1,4 @@
-<h1 style="color:#848ad6;" id="status">Checking the status...</h1>
+<h1 style="color:#848ad6;" id="status">Checking the server status...</h1>
 <script>
     const apiUrl = 'https://api.mcstatus.io/v2/status/java/147.185.221.211:38781';
     
@@ -6,7 +6,7 @@
       .then(response => response.json())
       .then(data => {
         if (data.online) {
-          window.location.href = 'http://147.185.221.16:6692/'; 
+          window.location.href = 'https://limitrious.github.io/server/Webconsole'; 
         } else {
           document.getElementById('status').innerHTML = 'The server is offline';
           document.getElementById('status2').innerHTML = '(no console)';
