@@ -1,7 +1,7 @@
 const statusElement = document.getElementById('demo');
 statusElement.innerText = 'Checking status...'; 
 
-const apiUrl = 'https://api.mcstatus.io/v2/status/java/98.70.88.239:25565'; 
+const apiUrl = 'https://api.mcstatus.io/v2/status/java/147.185.221.20:62649'; 
 
 const updateStatus = () => {
 
