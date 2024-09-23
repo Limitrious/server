@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #121212;
-  color: rgb(255, 255, 255);
+  color: #eee;
   scrollbar-width: none;
   font-family: montserrat, sans-serif;
 }
@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 .content__title h1 {
   font-family: "m plus rounded 1c";
@@ -40,7 +40,7 @@ body {
   letter-spacing: 0.13em;
   text-indent: 0.13em;
   text-align: left;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .content__title p {
   position: relative;
@@ -62,7 +62,6 @@ body {
 .content__social ul span {
   margin-left: 10px;
   margin-right: 10px;
-  text-align: center;
 }
 .content__social li {
   display: inline;
@@ -93,8 +92,4 @@ body {
   .content__social li a {
     font-size: 8px !important;
   }
-}
-#particles-js {
-  background: black;
-  height: 100vh;
 }
